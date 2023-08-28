@@ -1,0 +1,27 @@
+.HeaderBottom{
+    .HeaderBottomMain{
+        display: flex;
+        gap: 10px;
+    }
+    .HeaderBottomCard{
+            border-radius: 17px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 140px;
+            height: 140px;
+
+
+        .HeaderBottomBlockRing{
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 50%;
+            width: 76px;
+            height: 77px;   
+            img{
+                width: 100%;
+            }
+            color: #0000002a;
+        }
+    }
+}
