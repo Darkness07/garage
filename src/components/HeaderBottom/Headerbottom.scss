@@ -1,7 +1,12 @@
 .HeaderBottom{
+    background-color: #12062b;
+    width: 100%;
+    padding: 20px; 
     .HeaderBottomMain{
+        width: 100%;
         display: flex;
         gap: 10px;
+        justify-content: center;
     }
     .HeaderBottomCard{
             border-radius: 17px;
