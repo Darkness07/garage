@@ -6,7 +6,7 @@ export default function Header() {
   const [follower,setFollower] = useState(16900)
   return (
     <div className='Header'>
-        <nav>
+        <nav className='mainWidht'>
           <div className="massager">
             <div className="block vk">
               <div className="ico">
