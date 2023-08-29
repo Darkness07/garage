@@ -10,6 +10,7 @@ body{
   sans-serif;
   background:#180838 url(./img/background.png);
   color: white;
+  background-position:top center;
 }
 a{
   color: white;
@@ -31,4 +32,16 @@ a{
 }
 h2{
   text-align: center;
+}
+span.orange{
+  color: #ed771b;
+}
+
+@media(max-width:1300px){
+    .mainWidht{
+      width: 1000px;
+    }
+    .App{
+      padding-top: 20px;
+    }
 }

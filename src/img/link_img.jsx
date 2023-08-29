@@ -19,6 +19,7 @@ import qiwi from './qiwi.png'
 import masterCard from './masterCard.png'
 import visa from './visa.png'
 import webMoney from './webMoney.png'
+import close from './close.png'
 
 
 const link_img={
@@ -43,6 +44,7 @@ const link_img={
     masterCard:masterCard,
     webMoney:webMoney,
     visa:visa,
+    close:close,
 }
 
 
