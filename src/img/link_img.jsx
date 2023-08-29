@@ -15,6 +15,10 @@ import caseIco from './case-ico.png'
 import documentIco from './document-ico.png'
 import upArrow from './up-arrow.png'
 import users from './users.png'
+import qiwi from './qiwi.png'
+import masterCard from './masterCard.png'
+import visa from './visa.png'
+import webMoney from './webMoney.png'
 
 
 const link_img={
@@ -35,6 +39,10 @@ const link_img={
     documentIco:documentIco,
     upArrow:upArrow,
     users:users,
+    qiwi:qiwi,
+    masterCard:masterCard,
+    webMoney:webMoney,
+    visa:visa,
 }
 
 

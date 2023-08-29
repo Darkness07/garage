@@ -1,6 +1,7 @@
 import About from '../../components/About/About';
 import AllWinner from '../../components/AllWinner/AllWinner';
 import CasesByRarity from '../../components/CasesByRarity/CasesByRarity';
+import Footer from '../../components/Footer/Footer';
 import FreeСase from '../../components/FreeKace/FreeСase';
 
 import Header from '../../components/Header/Header';
@@ -17,6 +18,7 @@ function App() {
       <CasesByRarity/>
       <FreeСase/>
       <About/>
+      <Footer/>
     </div>
   );
 }
