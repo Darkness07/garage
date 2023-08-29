@@ -1,33 +1,65 @@
-.HeaderBottom{
+.HeaderBottom {
     background-color: #12062b;
     width: 100%;
-    padding: 20px; 
+    padding: 20px;
     padding-top: 80px;
-    .HeaderBottomMain{
+
+    .HeaderBottomMain {
         width: 100%;
         display: flex;
-        gap: 10px;
+        gap: 20px;
         justify-content: center;
     }
-    .HeaderBottomCard{
-            border-radius: 17px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 140px;
-            height: 140px;
+
+    .HeaderBottomCard::after{
+        position: absolute;
+        content: '';
+        width: 8px;
+        height: 40px;
+        left: -8px;
+        border-radius: 5px 0 0 5px;
+        bottom: 15px;
+    }
+    .HeaderBottomCard.c1::after{
+        background-color: #9830b3;
+    }
+    .HeaderBottomCard.c2::after{
+        background-color: #3092bb;
+    }
+    .HeaderBottomCard.c3::after{
+        background-color: #c9405d;
+    }
+    .HeaderBottomCard.c4::after{
+        background-color: #1dd87e;
+    }
+    .HeaderBottomCard.c5::after{
+        background-color: #de7422;
+    }
+    .HeaderBottomCard {
+        position: relative;
+        border-radius: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10vw;
+        height: 10vw;
+        max-width:  150px;
+        max-height: 150px;
 
 
-        .HeaderBottomBlockRing{
+        .HeaderBottomBlockRing {
             border-width: 1px;
             border-style: solid;
             border-radius: 50%;
-            width: 76px;
-            height: 77px;   
-            img{
+            width: 50%;
+            height: 50%;
+
+            img {
                 width: 100%;
             }
+
             color: #0000002a;
         }
     }
+
 }

@@ -65,7 +65,7 @@ export default function Header({ setLogInOpen }) {
           </div>
         </nav>
       </div>
-      <div className="HeaderMedia">
+      {/* <div className="HeaderMedia">
         <div className="HeaderMediaTop mainWidht">
           <img src={link_img.logo} alt="" className="logo" />
           <h1>Меню</h1>
@@ -127,7 +127,7 @@ export default function Header({ setLogInOpen }) {
             <a href="#">Раритетные кейсы</a>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

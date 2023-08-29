@@ -13,8 +13,9 @@
     .FreeCaseMain{
         display: flex;
         margin-top: 50px;
-        justify-content: space-between;
+        // justify-content: space-between;
         flex-wrap: wrap;
+        gap: 43px;
         .FreeCaseCard{
             font-size: 14px;
             width: fit-content;
@@ -22,6 +23,7 @@
             flex-direction: column;
             padding: 20px;
             gap: 15px;
+            
             border-radius: 18px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.589);
             background: linear-gradient(-45deg, #5d2583 0%, rgb(40 20 82) 35%,  rgb(40 20 82) 65%,  #5d2583 100%);
@@ -33,5 +35,18 @@
                 box-shadow: 0 0 10px #972eb4;
             }
         }
+    }
+}
+@media(max-width:1300px){
+    .FreeCaseMain{
+        gap: 60px;
+    }
+}
+@media(max-width:1050px){
+    .FreeCaseMain{
+        gap: 47px!important;
+    }
+    .FreeСase .FreeCaseMain .FreeCaseCard{
+        padding: 35px;
     }
 }

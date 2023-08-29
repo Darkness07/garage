@@ -11,6 +11,11 @@ export default function HeaderBottom() {
             <HeaderBottomCard img={link_img.gun} color={'9830b3'}/>
             <HeaderBottomCard img={link_img.gun} color={'3092bb'}/>
             <HeaderBottomCard img={link_img.gun} color={'c9405d'}/>
+            <HeaderBottomCard img={link_img.gun} color={'1dd87e'}/>
+            <HeaderBottomCard img={link_img.gun} color={'de7422'}/>
+            <HeaderBottomCard img={link_img.gun} color={'c9405d'}/>
+            <HeaderBottomCard img={link_img.gun} color={'1dd87e'}/>
+            <HeaderBottomCard img={link_img.gun} color={'de7422'}/>
         </div>
     </div>
   )
