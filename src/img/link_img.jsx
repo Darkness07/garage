@@ -20,6 +20,7 @@ import masterCard from './masterCard.png'
 import visa from './visa.png'
 import webMoney from './webMoney.png'
 import close from './close.png'
+import Layer_777 from './Layer 777.png'
 
 
 const link_img={
@@ -45,6 +46,7 @@ const link_img={
     webMoney:webMoney,
     visa:visa,
     close:close,
+    Layer_777:Layer_777,
 }
 
 

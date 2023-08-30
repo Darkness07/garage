@@ -4,7 +4,7 @@ import CasesByRarityCard from './CasesByRarityCard/CasesByRarityCard'
 export default function CasesByRarity() {
     return (
         <div className='CasesByRarity'>
-            <h2>Бесплатные кейсы</h2>
+            <h2>Кейсы по раритетности</h2>
             <nav className='mainWidht'>
                 <a href="#">Навигация </a>
                 <a href="#">Навигация </a>

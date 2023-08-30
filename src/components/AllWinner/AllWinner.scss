@@ -6,6 +6,10 @@
         justify-content: space-between;
         .offers{
             width: 45%;
+            .offersTop,.offersBottom{
+                position: absolute;
+                left: 50px;
+            }
             .winnerCardMain{
                 display: flex;
                 gap: 10px;
