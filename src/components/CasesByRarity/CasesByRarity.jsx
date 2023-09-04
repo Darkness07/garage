@@ -12,16 +12,16 @@ export default function CasesByRarity() {
                 <a href="#">Навигация </a>
             </nav>
             <div className="CasesByRarityCardMain mainWidht">
-                <CasesByRarityCard />
-                <CasesByRarityCard />
-                <CasesByRarityCard />
-                <CasesByRarityCard />
-                <CasesByRarityCard />
-                <CasesByRarityCard />
-                <CasesByRarityCard />
-                <CasesByRarityCard />
-                <CasesByRarityCard />
-                <CasesByRarityCard />
+                <CasesByRarityCard color={'9830b3'}/>
+                <CasesByRarityCard color={'9830b3'}/>
+                <CasesByRarityCard color={'de7422'}/>
+                <CasesByRarityCard color={'9830b3'}/>
+                <CasesByRarityCard color={'de7422'}/>
+                <CasesByRarityCard color={'9830b3'}/>
+                <CasesByRarityCard color={'9830b3'}/>
+                <CasesByRarityCard color={'9830b3'}/>
+                <CasesByRarityCard color={'9830b3'}/>
+                <CasesByRarityCard color={'9830b3'}/>
             </div>
         </div>
     )

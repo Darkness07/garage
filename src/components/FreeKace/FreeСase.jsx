@@ -13,11 +13,11 @@ export default function FreeСase() {
             <a href="#">Навигация </a>
         </nav>
         <div className="FreeCaseMain mainWidht">
-          <FreeCaseCard/>
-          <FreeCaseCard/>
-          <FreeCaseCard/>
-          <FreeCaseCard/>
-          <FreeCaseCard/>
+          <FreeCaseCard color={'9830b3'}/>
+          <FreeCaseCard color={'de7422'}/>
+          <FreeCaseCard color={'9830b3'}/>
+          <FreeCaseCard color={'9830b3'}/>
+          <FreeCaseCard color={'de7422'}/>
         </div>
     </div>
   )

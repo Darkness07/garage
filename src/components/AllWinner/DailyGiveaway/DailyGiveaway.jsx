@@ -1,8 +1,14 @@
 import React from 'react'
 import link_img from '../../../img/link_img'
-export default function DailyGiveaway() {
+export default function DailyGiveaway({color}) {
     return (
-        <div className='DailyGiveaway'>
+        <div className={`DailyGiveaway ${
+            color == '9830b3' ? 'c1' :
+            color == '3092bb' ? 'c2' :
+            color == 'c9405d' ? 'c3' :
+            color == '1dd87e' ? 'c4' :
+            color == 'de7422' ? 'c5' :
+             ''}`}>
             <div className="DailyGiveawayLeft">
                 <div className="title">Еженедельная раздача</div>
                 <div className="time">

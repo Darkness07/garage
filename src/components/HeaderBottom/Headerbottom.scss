@@ -12,14 +12,15 @@
         justify-content: center;
     }
 
+
     .HeaderBottomCard::after {
         position: absolute;
         content: '';
         width: 8px;
         height: 40px;
-        left: -8px;
+        left: -10px;
         border-radius: 5px 0 0 5px;
-        bottom: 15px;
+        bottom: 25px;
     }
 
     .HeaderBottomCard.c1::after {
@@ -43,6 +44,7 @@
     }
 
     .HeaderBottomCard.c1 {
+        background-image: url(../../img/header_bottom_bg_1.png);
         .CardMenu {
             border: #9830b3 2px solid;
             .CardMenuTop{
@@ -55,6 +57,7 @@
     }
     
     .HeaderBottomCard.c2 {
+        background-image: url(../../img/header_bottom_bg_2.png);
         .CardMenu {
             border: #3092bb 2px solid;
             .CardMenuTop{
@@ -67,6 +70,8 @@
     }
     
     .HeaderBottomCard.c3 {
+        background-image: url(../../img/header_bottom_bg_3.png);
+
         .CardMenu {
             border: #c9405d 2px solid;
             .CardMenuTop{
@@ -79,6 +84,8 @@
     }
     
     .HeaderBottomCard.c4 {
+        background-image: url(../../img/header_bottom_bg_4.png);
+
         .CardMenu {
             border: #1dd87e 2px solid;
             .CardMenuTop{
@@ -92,6 +99,7 @@
     }
     
     .HeaderBottomCard.c5 {
+        background-image: url(../../img/header_bottom_bg_5.png);
         .CardMenu {
             border: #de7422 2px solid;
             .CardMenuTop{
@@ -101,12 +109,36 @@
         .CardMenu::after{
             background-color: #de7422;
         }
-
+        
     }
-
+    .HeaderBottomCard.c1:hover{
+        border: #9830b3 2px solid!important;
+        padding: 0;
+    }
+    .HeaderBottomCard.c2:hover{
+        border: #3092bb 2px solid!important;
+        padding: 0;
+    }
+    .HeaderBottomCard.c3:hover{
+        border: #c9405d 2px solid!important;
+        padding: 0;
+    }
+    .HeaderBottomCard.c4:hover{
+        border: #1dd87e 2px solid!important;
+        padding: 0;
+    }
+    .HeaderBottomCard.c5:hover{
+        border: #de7422 2px solid!important;
+        padding: 0;
+    }
+    
     .HeaderBottomCard {
+        transition: all .4s;
+        background-size: calc(100% + 10px);
+        background-position: center;
+        padding: 2px;
         position: relative;
-        border-radius: 17px;
+        border-radius: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -114,6 +146,7 @@
         height: 10vw;
         max-width: 150px;
         max-height: 150px;
+        border: solid 2px #0000;
 
 
         .HeaderBottomBlockRing {

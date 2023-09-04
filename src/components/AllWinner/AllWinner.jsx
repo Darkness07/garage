@@ -15,17 +15,17 @@ export default function AllWinner() {
                     <div className="winnerCardMainTop">
                         <a className='showAll' href="#"><img  src={link_img.winnersBlockkrown} alt="" /> Посмотреть все</a>
                     </div>
-                    <WinnerCard/>
-                    <WinnerCard/>
-                    <WinnerCard/>
+                    <WinnerCard color={'8b2ca5'}/>
+                    <WinnerCard color={'3092bb'}/>
+                    <WinnerCard color={'3092bb'}/>
                 </div>
                 <div className="offersBottom">
                     <button className='orangeBtn'>Все предложения <img src={link_img.arrowRight} alt="" /></button>
                 </div>
             </div>
             <div className="DailyGiveawayMain">
-                <DailyGiveaway/>
-                <DailyGiveaway/>
+                <DailyGiveaway color={'1dd87e'}/>
+                <DailyGiveaway color={'9830b3'}/>
             </div>
         </div>
     </div>

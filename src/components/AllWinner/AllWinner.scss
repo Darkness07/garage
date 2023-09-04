@@ -43,16 +43,39 @@
                     padding: 20px;
                     color: white;
                     gap: 20px;
+                    .img.c1{
+                        .border{
+                            border: solid 1px #8b2ca5;
+                            box-shadow: 0px 0px 5px #8b2ca5 ,inset 0px 0px 5px #8b2ca5;
+                        }
+                        
+                        background-image: url(../../img/winner_card_bg_1.png);
+                    }
+                    .img.c2{
+                        .border{
+                            border: solid 1px #3092bb;
+                            box-shadow: 0px 0px 5px #3092bb ,inset 0px 0px 5px #3092bb;
+                        }
+                        background-image: url(../../img/winner_card_bg_2.png);
+                    }
+                    // .img.c3{
+                    //     background-image: url(../../img/winner_card_bg_3.png);
+                    // }
+                    // .img.c4{
+                    //     background-image: url(../../img/winner_card_bg_4.png);
+                    // }
+                    // .img.c5{
+                    //     background-image: url(../../img/winner_card_bg_5.png);
+                    // }
                     .img{
                         width: 130px;
                         height: 130px;
                         margin: auto;
                         display: flex;
                         border-radius: 12px;
-                        background: linear-gradient( 180deg, rgb(24,8,56) 0%, #8b2ca5 100%);
+                        background-position: center;
+                        background-size: calc(100% + 10px);
                         .border{
-                            border: solid 1px #8b2ca5;
-                            box-shadow: 0px 0px 5px #8b2ca5 ,inset 0px 0px 5px #8b2ca5;
                             border-radius: 50%;
                             margin: auto;
                         }
@@ -102,39 +125,35 @@
             flex-direction: column;
             gap: 30px;
             justify-content: center;
-            .radial{
-                position: absolute;
-                overflow: hidden;
-                top: -30px;
-                right: -51px;
-                width: 300px;
-                height: 155px;
-                border-radius: 0 0 18px 0 ;
+
+            .DailyGiveaway.c1{
+                background-image: url(../../img/winner_right_bg_1.png);
+                .price{
+                    border: solid 2px #9830b3;
+                    box-shadow: 0 0 10px #9830b3;
+                }
+                .title{
+                    color:#9830b3;
+                }
             }
-            .radial::after{
-                position: absolute;
-                content: '';
-                background: radial-gradient(ellipse at center,  #1dd87ea2 0%,#18083800 50%); 
-                width: 200px;
-                height: 200px;
-                top: -76px;
-                left: 37px;
-            }
-            .radial::before{
-                position: absolute;
-                content: '';
-                background: radial-gradient(ellipse at center,  #1dd87ea2 0%,#18083800 50%); 
-                width: 200px;
-                height: 200px;
-                top: 67px;
-                left: 184px;
+            .DailyGiveaway.c4{
+                background-image: url(../../img/winner_right_bg_4.png);
+                .price{
+                    border: solid 2px #1dd87e;
+                    box-shadow: 0 0 10px #1dd87e;
+                }
+                .title{
+                    color:#1dd87e;
+                }
             }
             .DailyGiveaway{
                 position: relative;
                 box-shadow: 0 0 10px #00000036;
                 padding: 20px 50px;
                 border-radius: 20px;
-                background-color: #180838;
+                // background-color: #180838;
+                background-size: cover;
+                background-position: calc(50% - 50px);
                 gap: 20px;
                 width: 100%;height: 150px;
                 display: flex;
@@ -172,8 +191,6 @@
                     gap: 10px;
                     .price{
                         padding: 10px;
-                        border: solid 2px #1dd87e;
-                        box-shadow: 0 0 10px #1dd87e;
                         border-radius: 20px;
                         display: flex;
                         justify-content: center;
