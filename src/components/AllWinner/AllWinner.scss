@@ -125,7 +125,19 @@
             flex-direction: column;
             gap: 30px;
             justify-content: center;
-
+            position: relative;
+            .radial{
+                position: absolute;
+                top: -20px;
+                left: -150px;
+                width: calc(100% + 200px);
+                height: calc(100% + 100px);
+                z-index: -1;
+                opacity: 0.6;   
+                background-image: url(../../img/radial.png);
+                background-size: cover;
+                background-position: center;
+            }
             .DailyGiveaway.c1{
                 background-image: url(../../img/winner_right_bg_1.png);
                 .price{

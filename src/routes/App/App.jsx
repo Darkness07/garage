@@ -12,11 +12,12 @@ import './App.scss';
 
 function App() {
   const [LogInOpen, setLogInOpen] = useState(false)
+  const [HeaderOpen, setHeaderOpen] = useState(false)
   return (
     <div className="App">
-      <Header setLogInOpen={setLogInOpen} />
+      <Header setHeaderOpen={setHeaderOpen} HeaderOpen={HeaderOpen} setLogInOpen={setLogInOpen} />
       <HeaderBottom />
-      <AllWinner />
+      <AllWinner setHeaderOpen={setHeaderOpen}/>
       <FreeСase />
       <CasesByRarity />
       <FreeСase />

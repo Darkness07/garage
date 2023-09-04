@@ -3,13 +3,13 @@ import './AllWinner.scss'
 import WinnerCard from './winnerCard'
 import link_img from '../../img/link_img'
 import DailyGiveaway from './DailyGiveaway/DailyGiveaway'
-export default function AllWinner() {
+export default function AllWinner({setHeaderOpen}) {
   return (
     <div className='AllWinner'>
         <div className="main mainWidht">
             <div className="offers">
                 <div className="offersTop">
-                    <button className='orangeBtn'>Быстрый перевод <img src={link_img.arrowRight} alt="" /></button>
+                    <button onClick={()=>setHeaderOpen(true)} className='orangeBtn'>Быстрый перевод <img src={link_img.arrowRight} alt="" /></button>
                 </div>
                 <div className="winnerCardMain">
                     <div className="winnerCardMainTop">
@@ -25,6 +25,7 @@ export default function AllWinner() {
             </div>
             <div className="DailyGiveawayMain">
                 <DailyGiveaway color={'1dd87e'}/>
+                {/* <div className="radial"></div> */}
                 <DailyGiveaway color={'9830b3'}/>
             </div>
         </div>

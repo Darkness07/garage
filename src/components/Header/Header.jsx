@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Header.scss'
 import link_img from '../../img/link_img'
 
-export default function Header({ setLogInOpen }) {
+export default function Header({setHeaderOpen, setLogInOpen,HeaderOpen }) {
   const [follower, setFollower] = useState(16900)
   return (
     <>
@@ -65,7 +65,7 @@ export default function Header({ setLogInOpen }) {
           </div>
         </nav>
       </div>
-      {/* <div className="HeaderMedia">
+      <div onClick={()=>{setHeaderOpen(false)}} className={`HeaderMedia ${HeaderOpen?'open':''}`}>
         <div className="HeaderMediaTop mainWidht">
           <img src={link_img.logo} alt="" className="logo" />
           <h1>Меню</h1>
@@ -127,7 +127,7 @@ export default function Header({ setLogInOpen }) {
             <a href="#">Раритетные кейсы</a>
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   )
 }

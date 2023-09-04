@@ -43,7 +43,6 @@ export default function DailyGiveaway({color}) {
             <div className="DailyGiveawayRight">
                 <img className='gun' src={link_img.gun} alt="" />
                 <img className='imgBg' src={link_img.smoke} alt="" />
-                <div className="radial"></div>
             </div>
 
         </div>
