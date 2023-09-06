@@ -1,6 +1,22 @@
 @font-face {
   font-family: 'Gilroy';
+  src: url(Font/gilroy/gilroy-regular.ttf);
+  
+}
+@font-face {
+  font-family: 'Gilroy';
   src: url(Font/gilroy/gilroy-medium.ttf);
+  font-weight: medium;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url(Font/gilroy/gilroy-semibold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url(Font/gilroy/gilroy-bold.ttf);
+  font-weight: bold;
 }
 
 * {
@@ -9,7 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
-
+h2{
+  font-weight: bold;
+}
 body {
   font-family: "Gilroy";
   background: #180838 url(./img/background.png);
@@ -41,6 +59,7 @@ a {
   display: flex;
   gap: 10px;
   align-items: center;
+  font-weight: medium;
 }
 
 h2 {
@@ -252,7 +271,8 @@ span.orange {
   }
 
   .HeaderBottom{
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
     .HeaderBottomMain{
       width: max-content!important;
       .HeaderBottomCard {

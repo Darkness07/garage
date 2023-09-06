@@ -144,8 +144,8 @@
         align-items: center;
         width: 10vw;
         height: 10vw;
-        max-width: 150px;
-        max-height: 150px;
+        max-width:  110px;
+        max-height: 110px;
         border: solid 2px #0000;
 
 
@@ -153,8 +153,8 @@
             border-width: 1px;
             border-style: solid;
             border-radius: 50%;
-            width: 50%;
-            height: 50%;
+            width:  65%;
+            height: 65%;
 
             img {
                 width: 100%;
@@ -179,7 +179,8 @@
         position: absolute;
         display: none;
         transition: 1s;
-        top: 10vw;
+        bottom: -235px;
+
         border-radius: 18px;
         flex-direction: column;
         background-color: #180838;
