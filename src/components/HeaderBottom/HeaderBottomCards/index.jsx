@@ -1,8 +1,15 @@
 import React from 'react'
 import link_img from '../../../img/link_img'
-export default function HeaderBottomCard({ img, color }) {
+export default function HeaderBottomCard({ func, img, color }) {
   return (
-    <div className={
+    <div 
+    onMouseMove={(e)=>{
+      func(true)
+    }}
+    onMouseOut={(e)=>{
+      func(false)
+    }}
+     className={
       `HeaderBottomCard ${
         color == '9830b3' ? 'c1' :
         color == '3092bb' ? 'c2' :

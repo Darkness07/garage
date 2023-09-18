@@ -1,18 +1,21 @@
 @font-face {
   font-family: 'Gilroy';
   src: url(Font/gilroy/gilroy-regular.ttf);
-  
+
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(Font/gilroy/gilroy-medium.ttf);
   font-weight: medium;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(Font/gilroy/gilroy-semibold.ttf);
   font-weight: 600;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(Font/gilroy/gilroy-bold.ttf);
@@ -25,15 +28,17 @@
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
-h2{
+
+h2 {
   font-weight: bold;
 }
+
 body {
   font-family: "Gilroy";
   background: #180838 url(./img/background.png);
   color: white;
   background-position: top center;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 h2 {
@@ -69,15 +74,19 @@ h2 {
 span.orange {
   color: #ed771b;
 }
-.CasesByRarityCard,.FreeCaseCard{
+
+.CasesByRarityCard,
+.FreeCaseCard {
   background-size: calc(100% + 10px) calc(100% + 10px);
   background-position: -2px -2px;
 }
+
 @media(min-width:1300px) {
-  .AllWinner .main .offers{
+  .AllWinner .main .offers {
     width: 46% !important;
   }
 }
+
 @media(max-width:1300px) {
   .mainWidht {
     width: 1000px;
@@ -90,33 +99,41 @@ span.orange {
   .FreeCaseMain {
     gap: 54px !important;
   }
-  .WinnerCard:nth-child(3){
+
+  .WinnerCard:nth-child(3) {
     display: none !important;
   }
+
   .orangeBtn {
     margin-top: -16px;
   }
 }
 
 @media(max-width:1050px) {
-  .offersTop{
+  .offersTop {
     margin-top: -45px;
   }
-  .AllWinner .main{
+
+  .AllWinner .main {
     margin: 100px auto !important;
   }
+
   .mainWidht {
     width: 800px;
   }
-  .WinnerCard:nth-child(2){
+
+  .WinnerCard:nth-child(2) {
     display: none !important;
   }
+
   .App {
     padding-top: 20px;
   }
-  .AllWinner .main .offers{
+
+  .AllWinner .main .offers {
     width: 40% !important;
   }
+
   .AllWinner .main .DailyGiveawayMain {
     width: 60% !important;
   }
@@ -144,15 +161,19 @@ span.orange {
 }
 
 @media(max-width:900px) {
-  .orangeBtn{
+  .orangeBtn {
     margin-top: 10px !important;
   }
-  .Header nav .massager .ico{
+
+  .Header nav .massager .ico {
     width: 25px !important;
     height: 25px !important;
+
     img {
-    width: calc(100% - 8px)!important;
-}}
+      width: calc(100% - 8px) !important;
+    }
+  }
+
   body {
     font-size: 10px;
   }
@@ -253,94 +274,115 @@ span.orange {
       }
     }
   }
-  .AllWinner .main .offers .offersBottom{
+
+  .AllWinner .main .offers .offersBottom {
     margin-top: 20px !important;
   }
-  .offersTop{
-    button{
+
+  .offersTop {
+    button {
       margin-top: -40px;
     }
+  }
 }
-}
+
 @media(max-width:650px) {
-  .AllWinner .main .offers{
+  .AllWinner .main .offers {
     width: 100% !important;
   }
+
   .mainWidht {
     width: 400px;
   }
 
-  .HeaderBottom{
-    overflow-x: auto;
-    overflow-y: hidden;
-    .HeaderBottomMain{
-      width: max-content!important;
-      .HeaderBottomCard {
-        width: 70px !important;
-        height: 70px !important;
-      }
-    }
-  }
-  .About{
+
+  .About {
     flex-wrap: wrap;
     gap: 14px;
   }
-  .AllWinner .main{
+
+  .AllWinner .main {
     flex-direction: column;
     gap: 50px;
     padding-bottom: 20px;
   }
-  .AllWinner .main .DailyGiveawayMain{
+
+  .AllWinner .main .DailyGiveawayMain {
     width: 100% !important;
   }
-  .AllWinner .main .offers .offersBottom{
+
+  .AllWinner .main .offers .offersBottom {
     margin-top: 300px !important;
   }
+
   .WinnerCard:nth-child(2) {
     display: flex !important;
   }
-  .offers{
+
+  .offers {
     width: 100% !important;
   }
 }
+
 @media(max-width:550px) {
 
-  h2{
+  h2 {
     font-size: 20px;
   }
+
   .mainWidht {
     width: calc(100% - 30px);
   }
-  .CasesByRarity nav a,.FreeСase nav a{
+
+  .CasesByRarity nav a,
+  .FreeСase nav a {
     padding: 10px 10px !important;
     font-size: 8px;
   }
-  .FreeСase .FreeCaseMain{
+
+  .FreeСase .FreeCaseMain {
     gap: 20px !important;
     justify-content: space-between;
   }
-  .Header{
+
+  .Header {
     padding: 0 !important;
   }
-  .Footer .block{
+
+  .Footer .block {
     width: calc(100% - 20px) !important;
   }
-  .Header nav .massager{
+
+  .Header nav .massager {
     display: none !important;
   }
-  .Footer .block .imgs{
+
+  .Footer .block .imgs {
     width: 100% !important;
   }
 }
+
 @media(max-width:450px) {
-  .FreeCaseCard img, .CasesByRarityCard img {
+
+  .FreeCaseCard img,
+  .CasesByRarityCard img {
     width: 220px;
     margin: auto;
-}
-  .AllWinner .main .DailyGiveawayMain .DailyGiveaway .DailyGiveawayRight{
+  }
+
+  .AllWinner .main .DailyGiveawayMain .DailyGiveaway .DailyGiveawayRight {
     display: none;
   }
-  .FreeСase .FreeCaseMain,.CasesByRarity .CasesByRarityCardMain,.AllWinner .main .offers .winnerCardMain{
+
+  .FreeСase .FreeCaseMain,
+  .CasesByRarity .CasesByRarityCardMain,
+  .AllWinner .main .offers .winnerCardMain {
     justify-content: center !important;
+  }
+  .AllWinner .main .offers .winnerCardMain .WinnerCard{
+    padding: 15px !important;
+  }
+  .AllWinner .main .offers .winnerCardMain .WinnerCard .img{
+    width: 120px!important;
   }
 }
