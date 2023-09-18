@@ -287,6 +287,10 @@ span.orange {
 }
 
 @media(max-width:650px) {
+  .HeaderBottom .HeaderBottomCard{
+    width: 20vw!important;
+    height: 20vw!important;
+  }
   .AllWinner .main .offers {
     width: 100% !important;
   }
@@ -325,7 +329,12 @@ span.orange {
 }
 
 @media(max-width:550px) {
-
+  .CardMenu{
+    bottom: -210px !important;
+  }
+  .CardMenu .CardMenuBottom img{
+    width: 25px !important;
+  }
   h2 {
     font-size: 20px;
   }
@@ -385,4 +394,5 @@ span.orange {
   .AllWinner .main .offers .winnerCardMain .WinnerCard .img{
     width: 120px!important;
   }
+
 }

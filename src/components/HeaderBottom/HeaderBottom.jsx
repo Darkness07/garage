@@ -24,13 +24,13 @@ export default function HeaderBottom() {
     lol = Math.floor(lol / 110) + 2
   }
   else if (window.innerWidth > 600) {
-    lol = Math.floor(lol / 110) + 4
+    lol = Math.floor(lol / 110) + 2
   }
   else if (window.innerWidth > 100) {
-    lol = Math.floor(lol / 110) + 4
+    lol = Math.floor(lol / 110)
   }
   else {
-    lol = Math.floor(lol / 110) - 1
+    lol = Math.floor(lol / 110)
   }
   const settings = {
     // dots: true,
